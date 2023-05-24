@@ -1,0 +1,152 @@
+* {
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+
+.chat-text-div {
+    color: black;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    position: sticky;
+    z-index: 1;
+    display: inline-flex;
+    top: -30px;
+    background-color: rgb(255, 255, 255);
+    padding-top:40px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    box-shadow:rgb(238, 237, 237) 0px 0px 3px;
+}
+
+.chat-text {
+    font-weight: 800;
+}
+
+.back-btn {
+    text-align: right;
+    width: 100%;
+}
+
+.bi-chevron-left {
+    font-size: 23px;
+    color: black;
+    padding-right: 10px;
+    position: relative;
+    bottom: 8px;
+}
+
+
+/* chats settings*/
+
+
+.chat-box-div {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#outMsg {
+    font-size: 10px;
+    display: inline;
+    position: relative;
+    bottom: 27px;
+    left: 45px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.chat-box {
+    background-color: white;
+    padding: 10px;
+    height: 67px;
+}
+
+img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    display: flex;
+}
+
+.msgProfile {
+    display: flex;
+}
+
+#ul {
+    list-style-type: none;
+    margin-left: -29px;
+    text-decoration: none;
+}
+
+
+#username {
+    padding-left: 10px;
+    padding-top: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.date-div {
+    display: inline-flex;
+}
+
+.bi-dot,
+#date {
+    font-size: 11px;
+    position: relative;
+    top: 5px;
+    padding-left: 2px;
+}
+
+
+/*oprate search input and buttons*/
+
+.closeAll {
+    display: inline-flex;
+    width: 100%;
+}
+
+.bi-x,
+.bi-search {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 27px;
+    padding: 20px;
+    color: black;
+}
+
+.bi-x {
+    display: none;
+}
+
+#inputSearch {
+    width: 93%;
+    font-size: 12px;
+    height: 37px;
+    display: none;
+    background-color: rgb(248, 248, 248);
+    border: none;
+    padding-left: 5px;
+    border-radius: 6px;
+}

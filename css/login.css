@@ -1,0 +1,97 @@
+* {
+    
+}
+
+body,html {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.wrapper {
+    height: auto;
+    width: 100%;
+}
+
+.sign-upandlogin {
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+.sign-up-page,
+.login-page, a {
+    padding: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+.login-page {
+    text-decoration:brown underline;
+    text-decoration-thickness: 4px;
+}
+
+.head-text {
+    font-weight: 800;
+}
+
+p {
+    font-size: 13px;
+}
+
+input {
+    display: inline;
+    background-color: white;
+    border: none;
+    box-shadow:rgb(68, 22, 22) 0px 0px 8px -5px;
+    padding:8px 10px;
+    border-radius: 8px;
+}
+
+#fakelognin {
+    background-color: brown;
+    color: white;
+    filter: opacity(60%);
+    border: none;
+    padding: 12px 4.6rem;
+    text-align: center;
+    border-radius: 10px;      
+}
+
+#login {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 12px 4.6rem;
+    text-align: center;
+    border-radius: 10px; 
+}
+
+#mainbtn {
+    display: none;
+}
+
+section {
+    position: relative;
+    top: 7.6rem;
+}
+
+.login-div {
+    display:-webkit-inline-box;
+}
+
+#usersname,
+#password {
+    margin: 6px;
+}
+
+#errorMsg {
+    color: red;
+    font-size: 12px;
+}
+
+.bi-exclamation-diamond {
+    padding-right: 3px;
+}

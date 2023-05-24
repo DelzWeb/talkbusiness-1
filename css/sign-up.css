@@ -1,0 +1,116 @@
+* {
+    
+}
+
+body,html {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.wrapper {
+    height: auto;
+    width: 100%;
+}
+
+.sign-upandlogin {
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+.sign-up-page,
+.login-page, a {
+    padding: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+.sign-up-page {
+    text-decoration:brown underline;
+    text-decoration-thickness: 4px;
+}
+
+.head-text {
+    font-weight: 800;
+}
+
+p {
+    font-size: 13px;
+}
+
+h4 {
+    text-align: left;
+}
+
+input {
+    display: inline;
+    background-color: white;
+    border: none;
+    box-shadow:rgb(68, 22, 22) 0px 0px 8px -5px;
+    padding:8px 10px;
+    border-radius: 8px;
+}
+
+#fakesignUp {
+    background-color: brown;
+    color: white;
+    filter: opacity(60%);
+    border: none;
+    padding: 12px 4.6rem;
+    text-align: center;
+    border-radius: 10px;      
+}
+
+#signUp {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 12px 4.6rem;
+    text-align: center;
+    border-radius: 10px; 
+}
+
+#mainbtn {
+    display: none;
+}
+
+#mainbtn,
+#btn {
+    margin-top: 1.7rem;
+}
+
+button {
+
+}
+
+section {
+    position: relative;
+    top: 5.6rem;
+}
+
+.sign-up-div {
+    display:-webkit-inline-box;
+}
+
+#firstName,
+#lastName,
+#password,
+#re-password {
+    margin: 6px;
+}
+
+#errorMsg,
+#tooWeak,
+#nametooWeak {
+    color: red;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.bi-exclamation-diamond {
+    padding-right: 3px;
+}

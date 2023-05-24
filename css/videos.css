@@ -1,0 +1,346 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    user-select: none;
+}
+
+
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.bi-plus {
+    font-size: 34px;
+    color: black;
+}
+
+.bi-plus:hover {
+    color: black;
+}
+
+.videos-head-div {
+    color: black;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    position: sticky;
+    z-index: 1;
+    top: -20px;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: -50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+}
+
+.videos-head {
+    font-weight: 700;
+}
+
+
+#group {
+    text-align: right;
+    align-content: right;
+    align-items: right;
+    position: relative;
+    bottom: 3.6rem;
+    padding: 6px;
+}
+
+#bottom-menu {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    background-color: white;
+    color: black;
+    box-shadow:black 0px 26px 10px 17px;
+}
+
+#list,
+#home,
+#videos,
+#chat,
+#setting, a {
+    font-size: 25px;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#home-fill {
+    font-size: 25px;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#home {
+    transition: 0.5s;
+    display: none;
+}
+
+#setting-fill {
+    font-size: 25px;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    display: none;
+}
+
+.list-div,
+.home-div,
+.chat-div,
+.videos-div,
+.setting-div {
+    display: inline-flex;
+    padding:6px 6%;
+}
+
+#openList {
+    position: fixed;
+    height: 93%;
+    width: 0;
+    z-index: 1;
+    overflow-x: scroll;
+    background-color: rgb(247, 247, 247);
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+}
+
+
+/*inside setting*/
+
+#logout-div,
+#darkmode-div {
+    display: inline-flex;
+    background-color: white;
+    width: 90%;
+    margin: 20px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(134, 134, 134);
+    border-width: 0.1px;
+    box-shadow: 0px 0px 2px;
+    transition: 0.5s;
+}
+
+#darkmode-div:hover,
+#logout-div:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.bi-moon,
+#logout,
+.bi-box-arrow-left,
+#darkmode {
+    font-size: 18px;
+    font-weight: 630;
+    padding:16px 0px;
+    height: 46px;
+}
+
+.bi-box-arrow-left,
+.bi-moon {
+    padding: 16px 20px;
+}
+
+
+#openSetting {
+    position: fixed;
+    height: 93%;
+    width: 0;
+    z-index: 1;
+    overflow:scroll;
+    background-color: rgb(247, 247, 247);
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+}
+
+
+.list-head-setting-div {
+    color: black;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    position: sticky;
+    z-index: 1;
+    top: -20px;
+    background-color: rgb(247, 247, 247);
+    padding-top: 40px;
+    padding-bottom: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+}
+
+.setting-head-text,
+.list-head-setting {
+    font-weight: 800;
+}
+
+.list-head-setting-div {
+    color: black;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    position: sticky;
+    z-index: 1;
+    top: -20px;
+    background-color: rgb(247, 247, 247);
+    padding-top: 40px;
+    padding-bottom: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+}
+
+.setting-head-text,
+.list-head-setting {
+    font-weight: 800;
+}
+
+
+#catigories-div {
+    margin: 20px;
+}
+
+.catigories {
+    background-color: white;
+    padding: 30px;
+}
+
+#search-div {
+    text-align: right;
+    position: relative;
+    bottom: 45px;
+    padding-right: 20px
+}
+
+video {
+    margin: 5px;
+    width: 97%;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+video::-webkit-media-controls-panel {
+    display: none !important;
+    opacity: 1 !important;
+}
+
+article {
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    padding-top: 6px;
+    margin-left: 10px;
+}
+
+.article {
+    line-height: 21px;
+    height: calc(3 * 21px);
+    overflow: hidden;
+    position: relative;
+}
+
+.article::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 21px;
+    width: 75%;
+    background: linear-gradient(
+        90deg, transparent, white
+    );
+}
+
+.more {
+    text-decoration: none;
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+#username {
+    padding-left: 10px;
+    position: relative;
+    margin: 0;
+    top: 10px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+#video-div {
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+img {
+    height: 40px;
+    padding-left: 5px;
+}
+
+.imgandusername {
+    display: inline-flex;
+}
+
+/*like and comment*/
+
+.likecmdiv {
+    padding-left: 10px;
+    gap: 10px;
+    font-size: 20px;
+    display: flex;
+}
+
+.bi-heart{padding-right: 5px;}
+.bi-chat-text {position: relative; bottom: 2px;}
+
+#commentCount,
+#likesCount {
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+    padding-left: 5px;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+@media only screen and (max-width: 357px) {
+    .list-div,
+    .chat-div,
+    .videos-div,
+    .setting-div {
+        display: inline-flex;
+        padding:0px 5%;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+    .list-div,
+    .chat-div,
+    .videos-div,
+    .setting-div {
+        display: inline-flex;
+        padding:0px 5%;
+    }
+    #list,
+    #home,
+    #videos,
+    #chat,
+    #setting {
+        font-size: 20px;
+    }
+}
