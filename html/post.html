@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>talkBusiness</title>
+    <link rel="shortcut icon" type="image/png" href="#">
+    <link rel="stylesheet" href="/talkbusiness/css/post.css">
+    <link rel="stylesheet" href="/talkbusiness/bootstrap-icons-1.8.3/bootstrap-icons.css">
+    <link rel="stylesheet" href="/talkbusiness/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <script src="/talkbusiness/bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="text-head-div">
+            <h1 id="text-head">Post</h1>
+            <div class="back-btn">
+                <a href="/talkbusiness/html/login.html"i class="bi bi-chevron-left"></i></a>
+            </div>
+        </div>
+        <form>
+            <div id="topic-text-div">
+                <p>Topic:</p>
+                <textarea onkeyup="topic()" placeholder="Enter topic text" style="resize: none;" name="topicText" id="topicText" rows="3" required></textarea>
+            </div>
+
+
+            <div id="catigory-div">
+                <p>Catigory:</p>
+                <select id="select">
+                    <option>select</option>
+                    <option>Technology</option>
+                    <option>Technology</option>
+                </select>
+            </div>
+
+            <div id="Caption-div">
+                <p>Caption:</p>
+                <textarea onkeyup="caption()" style="resize: none;" name="captionText" id="captionText" cols="30" rows="5" required></textarea>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="postBtn-div-div">
+                <div id="postBtn-div">
+                    <button id="postBtn">Post</button>
+                </div>
+            </div>
+        </form>
+        
+       
+        
+</body>
+</html>
